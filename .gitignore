@@ -1,47 +1,37 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Base ignore
+/.project
+/.buildpath
+/.settings
+/config.php
+/cache/
+/data/diagnostic-*.xml
+/files/css/*.opt.css
+/logs/data_logs/
+/logs/dump_backup/
+/logs/error_logs/
+/logs/ip_logs/
+/logs/ref_logs/
+/logs/voting_logs/
+/sess/sess_*
+/tmp/
 
-# Folder config file
-Desktop.ini
+# Ignore some class
+/includes/class/PHPExcel/
+/includes/class/PHPExcel.php
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Ignore some uploads, files dir
+/files/download
+/files/*.jpg
+/uploads/download
+/uploads/users/*.jpg
+/uploads/contact/*.jpg
+/uploads/about/*.jpg
+/uploads/banners/*.jpg
+/uploads/page/*.jpg
+/uploads/menu/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Allow default file
+!/uploads/banners/bongoaigiao.jpg
+!/uploads/banners/vinades.jpg
+!/uploads/banners/vndads___05.jpg
+!/uploads/banners/webnhanh_vn.gif
